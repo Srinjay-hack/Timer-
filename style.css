@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&display=swap');
+
+
+*{
+    box-sizing:border-box;
+   
+}
+body{
+    background-image: url('https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?cs=srgb&dl=pexels-lukas-kloeppel-466685.jpg&fm=jpg');
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0;
+    color:rgba(255, 11, 11, 0.952);
+    
+    font-family: 'Andika New Basic', sans-serif;
+
+}
+h1{
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top:5rem;
+}
+.countdown-container{
+    display:flex;
+
+   
+
+}
+.big-text{
+    font-weight: bold;
+    font-size:6rem;
+    line-height: 1;
+    margin:0 2rem;
+    color: rgb(247, 18, 159);
+
+
+}
+.countdown-e1{
+    text-align:center;
+}
+.countdown-e1 span{
+
+   font-size:1.3rem;
+}
